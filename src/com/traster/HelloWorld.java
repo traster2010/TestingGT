@@ -47,8 +47,11 @@ public class HelloWorld {
 
     public static void main(String[] args) throws Exception {
 
+
+        System.out.println();
         //   --------------------------
         if (true) return;
+
         ArrayList<String> cities = new ArrayList();
         Collections.addAll(cities, new String[]{"Paris", "Londos", "Toronto"});
         Stream var10000 = cities.stream().filter((c) -> {
